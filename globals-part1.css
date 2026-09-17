@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #f6f8f6;
+  --card: #ffffff;
+  --text: #17221c;
+  --muted: #6d7b73;
+  --primary: #087f5b;
+  --primary-2: #056044;
+  --border: #e0e8e2;
+  --gold: #bd8e35;
+}
+
+.dark {
+  --bg: #0d1411;
+  --card: #151e1a;
+  --text: #eef5f0;
+  --muted: #a7b4ad;
+  --primary: #32b887;
+  --primary-2: #24946c;
+  --border: #29352f;
+  --gold: #e1b85d;
+}
+
